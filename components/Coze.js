@@ -38,26 +38,3 @@ export default function Coze() {
   }, [])
   return <></>
 }
-
-const loadCoze = async () => {
-  await loadExternalResource(cozeSrc)
-  const CozeWebSDK = window?.CozeWebSDK
-  if (CozeWebSDK) {
-    const cozeClient = new CozeWebSDK.WebChatClient({
-      config: {
-        bot_id: botId
-      },
-      componentProps: {
-        title: title,
-        // 假设你可以通过 componentProps 传递自定义样式
-        style: {
-          position: 'fixed',
-          bottom: '20px',
-          right: '20px',
-          zIndex: 9999,
-        }
-      }
-    })
-    console.log('coze', cozeClient)
-  }
-}
