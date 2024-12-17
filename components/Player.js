@@ -88,4 +88,29 @@ const Player = () => {
   )
 }
 
+return (
+    <div className={playerVisible ? 'visible' : 'invisible'}>
+      <link
+        rel='stylesheet'
+        type='text/css'
+        href='https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css'
+      />
+      {meting ? (
+        <meting-js
+          fixed='true'
+          type='playlist'
+          preload='auto'
+          lrc-type={siteConfig('MUSIC_PLAYER_METING_LRC_TYPE')}
+          api='https://api.injahow.cn/meting/?server=tencent&type=playlist&id=替换成自己的歌单id'
+          autoplay={autoPlay}
+          order={siteConfig('MUSIC_PLAYER_ORDER')}
+          server={siteConfig('MUSIC_PLAYER_METING_SERVER')}
+          id={siteConfig('MUSIC_PLAYER_METING_ID')}
+        />
+      ) : (
+        <div ref={ref} data-player={player} />
+      )}
+    </div>
+  )                          
+                            
 export default Player
