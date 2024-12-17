@@ -318,11 +318,11 @@ const BLOG = {
         'https://y.qq.com/music/photo_new/T002R300x300M000003lJxUU3xzad9_3.jpg'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VhaVJYRms0OWx0RnZreXJCX3lOWG1vQjZkYjFJY0dUMU14S3ZhSGJSZTNoc3c_ZT11Wm5EbU0.mp3',
+      name: 'Fight',
+      artist: '押尾コータロー',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VleGJWT1VDbWI5TnBGOWtmdEdhMWRBQkFudUdtb0d4WTd2ZUMtRnhSTXJUbXc_ZT1LUEp5ejY.mp3',
       cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'https://y.qq.com/music/photo_new/T002R300x300M000002H2n8G2wZZsE_1.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
