@@ -311,6 +311,20 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
+      name: '流れ行く云 （流行的云）',
+      artist: '岸部真明',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VVY3UyNlNRY1NSTHBCY3dRQmNRcmdNQjQtaFlMcEllVnJnMjVZcHI1YVRwQUE_ZT1TQkhheGQ.mp3',
+      cover:
+        '	https://y.qq.com/music/photo_new/T002R300x300M000003lJxUU3xzad9_3.jpg'
+    },
+    {
+      name: '王都グランセル',
+      artist: 'Falcom Sound Team jdk',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VhaVJYRms0OWx0RnZreXJCX3lOWG1vQjZkYjFJY0dUMU14S3ZhSGJSZTNoc3c_ZT11Wm5EbU0.mp3',
+      cover:
+        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+    }
+    {
       name: '风を共に舞う気持ち',
       artist: 'Falcom Sound Team jdk',
       url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VhaVJYRms0OWx0RnZreXJCX3lOWG1vQjZkYjFJY0dUMU14S3ZhSGJSZTNoc3c_ZT11Wm5EbU0.mp3',
