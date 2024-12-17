@@ -315,7 +315,7 @@ const BLOG = {
       artist: '岸部真明',
       url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VVY3UyNlNRY1NSTHBCY3dRQmNRcmdNQjQtaFlMcEllVnJnMjVZcHI1YVRwQUE_ZT1TQkhheGQ.mp3',
       cover:
-        '	https://y.qq.com/music/photo_new/T002R300x300M000003lJxUU3xzad9_3.jpg'
+        'https://y.qq.com/music/photo_new/T002R300x300M000003lJxUU3xzad9_3.jpg'
     },
     {
       name: '王都グランセル',
