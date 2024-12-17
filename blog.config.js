@@ -320,7 +320,7 @@ const BLOG = {
     {
       name: '王都グランセル',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      url: 'https://github.com/SwordArtdownline/music_outerlink/blob/main/%E6%89%BE%E8%87%AA%E5%B7%B1.mp3',
       cover:
         'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     }
