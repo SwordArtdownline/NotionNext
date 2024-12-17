@@ -313,14 +313,14 @@ const BLOG = {
     {
       name: '风を共に舞う気持ち',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://github.com/SwordArtdownline/music_outerlink/blob/main/%E6%89%BE%E8%87%AA%E5%B7%B1.mp3',
+      url: 'https://cdn.jsdelivr.net/gh/SwordArtdownline/music_outerlink@main/%E6%89%BE%E8%87%AA%E5%B7%B1.mp3',
       cover:
         'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     },
     {
       name: '王都グランセル',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://github.com/SwordArtdownline/music_outerlink/blob/main/%E6%89%BE%E8%87%AA%E5%B7%B1.mp3',
+      url: 'https://cdn.jsdelivr.net/gh/SwordArtdownline/music_outerlink@main/%E6%89%BE%E8%87%AA%E5%B7%B1.mp3',
       cover:
         'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     }
