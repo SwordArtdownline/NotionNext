@@ -101,7 +101,7 @@ return (
           type='playlist'
           preload='auto'
           lrc-type={siteConfig('MUSIC_PLAYER_METING_LRC_TYPE')}
-          api='https://api.injahow.cn/meting/?server=tencent&type=playlist&id=替换成自己的歌单id'
+          api='https://api.injahow.cn/meting/?server=tencent&type=playlist&id=9389145742'
           autoplay={autoPlay}
           order={siteConfig('MUSIC_PLAYER_ORDER')}
           server={siteConfig('MUSIC_PLAYER_METING_SERVER')}
