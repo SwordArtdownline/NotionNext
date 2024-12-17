@@ -323,7 +323,14 @@ const BLOG = {
       url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VleGJWT1VDbWI5TnBGOWtmdEdhMWRBQkFudUdtb0d4WTd2ZUMtRnhSTXJUbXc_ZT1LUEp5ejY.mp3',
       cover:
         'https://y.qq.com/music/photo_new/T002R300x300M000002H2n8G2wZZsE_1.jpg'
-    }
+    },
+    {
+      name: 'Nocturne in E-flat Major, Op. 9 No. 2',
+      artist: 'Chopin（萧邦）',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VVRVZjZUQyeXdsQmtNZHdfMVNxSUVvQlhmaXlfVnlJOHdLWktRazFBRlppblE_ZT1NTDc3T0Q.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000001iDoHo213Sq9_2.jpg'
+    },
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
