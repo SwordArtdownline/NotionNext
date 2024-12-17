@@ -324,20 +324,6 @@ const BLOG = {
       cover:
         'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
     }
-    {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VhaVJYRms0OWx0RnZreXJCX3lOWG1vQjZkYjFJY0dUMU14S3ZhSGJSZTNoc3c_ZT11Wm5EbU0.mp3',
-      cover:
-        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
-    },
-    {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VhaVJYRms0OWx0RnZreXJCX3lOWG1vQjZkYjFJY0dUMU14S3ZhSGJSZTNoc3c_ZT11Wm5EbU0.mp3',
-      cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
-    }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
