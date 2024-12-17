@@ -330,6 +330,13 @@ const BLOG = {
       url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VVRVZjZUQyeXdsQmtNZHdfMVNxSUVvQlhmaXlfVnlJOHdLWktRazFBRlppblE_ZT1NTDc3T0Q.mp3',
       cover:
         'https://y.qq.com/music/photo_new/T002R300x300M000001iDoHo213Sq9_2.jpg'
+    },
+    {
+      name: '流れ行く云 （流行的云）',
+      artist: '岸部真明',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VVY3UyNlNRY1NSTHBCY3dRQmNRcmdNQjQtaFlMcEllVnJnMjVZcHI1YVRwQUE_ZT1TQkhheGQ.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000003lJxUU3xzad9_3.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
