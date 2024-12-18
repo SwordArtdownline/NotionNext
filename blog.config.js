@@ -311,11 +311,11 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '----下面为背景轻音乐，右侧列表键可更换唱片----',
+      name: '----点击右侧列表键更换唱片----',
       artist: '利特村の小曲',
       url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VjVGROTnc4WDROTW83bzl4dTFjOEk4QlRYenRyLTU2cHBKR3p0aW51RGxjblE_ZT1MeE8wREo.mp3',
       cover:
-        '	https://y.qq.com/music/photo_new/T002R300x300M0000039RVsh1qKJB4_1.jpg'
+        'https://cdn.shopify.com/s/files/1/0055/9906/8206/files/7-inch-vinyl-record.jpg'
     },
     {
       name: '流れ行く云 （流行的云）',
@@ -360,7 +360,7 @@ const BLOG = {
         '	https://y.qq.com/music/photo_new/T002R300x300M000002ZZoaQ34icr7_1.jpg'
     },
     {
-      name: '-------------曲子部分完结，下面是歌--------------',
+      name: '-------------上面是曲子，下面是歌--------------',
       artist: 'Careless Whisper',
       url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VUNnI2cFJveDRsSXN5Z2RSQVRIVjk4Qkg0M2dxMkxraFZ2anktTFpQdGZuckE_ZT1PaGh2aXo.mp3',
       cover:
