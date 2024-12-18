@@ -313,7 +313,7 @@ const BLOG = {
     {
       name: '----点击右侧列表键更换唱片----',
       artist: '利特村の小曲',
-      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VjVGROTnc4WDROTW83bzl4dTFjOEk4QlRYenRyLTU2cHBKR3p0aW51RGxjblE_ZT1MeE8wREo.mp3',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VTN3czdERoWV8xTXBsWUdiUVkwc0ZBQkhCWTl4MmU5YVZwaDc3cHEyWTVXTHc_ZT15YzZLRHo.mp3',
       cover:
         'https://cdn.shopify.com/s/files/1/0055/9906/8206/files/7-inch-vinyl-record.jpg'
     },
