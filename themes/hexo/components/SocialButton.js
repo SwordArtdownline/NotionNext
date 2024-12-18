@@ -58,8 +58,8 @@ const SocialButton = () => {
             target='_blank'
             rel='noreferrer'
             href={CONTACT_TELEGRAM}
-            title={'telegram'}>
-            <i className='transform hover:scale-125 duration-150 fab fa-telegram dark:hover:text-indigo-400 hover:text-indigo-600' />
+            title={'Steam'}>
+            <i className='transform hover:scale-125 duration-150 fab fa-steam dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
         {CONTACT_LINKEDIN && (
