@@ -296,7 +296,7 @@ const BLOG = {
     process.env.NEXT_PUBLIC_WIDGET_PET_LINK ||
     'https://raw.githubusercontent.com/imuncle/live2d/master/model/xiaomai/xiaomai.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
   WIDGET_PET_SWITCH_THEME:
-    process.env.NEXT_PUBLIC_WIDGET_PET_SWITCH_THEME || true, // 点击宠物挂件切换博客主题
+    process.env.NEXT_PUBLIC_WIDGET_PET_SWITCH_THEME || false, // 点击宠物挂件切换博客主题
 
   // 音乐播放插件
   MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || true, // 是否使用音乐播放插件
@@ -346,12 +346,75 @@ const BLOG = {
         'https://y.qq.com/music/photo_new/T002R300x300M000002H2n8G2wZZsE_1.jpg'
     },
     {
-      name: '-------------------上面是曲子，下面是歌--------------------',
+      name: '-------------上面是曲子，下面是歌--------------',
       artist: 'Careless Whisper',
       url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VUNnI2cFJveDRsSXN5Z2RSQVRIVjk4Qkg0M2dxMkxraFZ2anktTFpQdGZuckE_ZT1PaGh2aXo.mp3',
       cover:
         'https://y.qq.com/music/photo_new/T002R300x300M000004FcToR0G7wLh_1.jpg'
-    } 
+    }, 
+    {
+      name: 'Les Champs - Élysées（香榭丽舍大街）',
+      artist: 'Joe Dassin',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VlYmtQQWJIMThKQWo4SWpLa0pQcUtJQlJ1WVZvbzZQZmIxLTRub2RmZlJUN2c_ZT1uRkc3bUk.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000002KqNRL1dh0ra_1.jpg'
+    },
+    {
+      name: '二十二',
+      artist: '陶吉吉',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VZOEwybG9JN0RkTG1LbkhIeDk4TTRzQmdyUUY2MW1tWGZjYm5hb2Vxd1Vkcnc_ZT1lakRkcEc.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000001mvhPh0qevad_3.jpg'
+    },
+    {
+      name: '梦中人',
+      artist: '王菲',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VYd2l6V2RjWV9sUHJPR25ySlpwNHowQjRWV0pfdXZJb3c2OWRWWEI1ZFpTZEE_ZT1IZzdPV2Y.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000000EvMOS4TxNoF_1.jpg'
+    },
+    {
+      name: 'Bubble Gum',
+      artist: 'NewJeans (뉴진스)',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VYcjFTQ2phaDloS2dTVlc5V196YjRnQmFOMjY5OUtEc1l5X3owSzliZDlUc2c_ZT1pdmwzNXM.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000003PvABA1IwJp1_2.jpg'
+    },
+    {
+      name: 'APT.',
+      artist: 'ROSÉ (로제) /Bruno Mars',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VUb2c5TDZrS3NOSGlSLWktdHExS2lBQnd3UGVCTFBxY0FpNHlzT1JSOWpnb3c_ZT11bVlpZDk.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000003k3tmX1u3S55_1.jpg'
+    },
+    {
+      name: '丸ノ内サディスティック (丸内虐待狂)',
+      artist: '椎名林檎',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VTUm4zYUg3dGhoSXU2RnJHcTNtZ29BQkxDOWVjMlhYcmJQemtJMVdVWGYtb3c_ZT1sMkFvNEg.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000000DxtYW1nNnfn_2.jpg'
+    },
+    {
+      name: '花人局',
+      artist: 'ヨルシカ (Yorushika)',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VUTUFnZ3dWYWYxS3NTZk1qWUxBUTlJQjZpY0ZyUE1qUkt0b0FQWUVjYUs4Q2c_ZT1PRDFkU3k.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000002qWpBi0Hds7o_2.jpg'
+    },
+    {
+      name: 'Don\'t Stop Me Now',
+      artist: 'Queen（皇后乐队）',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VheVdweTRQU3ZWS3V3S2hhbW1LTUFFQmwwdktCUkVLNEJqOG96WWgwbmYzUmc_ZT1YY1hEazg.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000002clJTn3vZ792_1.jpg'
+    },
+    {
+      name: 'Viva La Vida',
+      artist: 'Coldplay（酷玩乐队）',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VYcUtiLTBncVM5TGdCclVwVXVEUnljQjF6cEVORWx5Um9yU25JLUZOcVRRVVE_ZT1nWDBHaTU.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000000NKvAG2DIbUg_2.jpg'
+    }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
