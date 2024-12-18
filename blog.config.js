@@ -318,11 +318,11 @@ const BLOG = {
         'https://y.qq.com/music/photo_new/T002R300x300M000003lJxUU3xzad9_3.jpg'
     },
     {
-      name: 'Fight',
-      artist: '押尾コータロー',
-      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VleGJWT1VDbWI5TnBGOWtmdEdhMWRBQkFudUdtb0d4WTd2ZUMtRnhSTXJUbXc_ZT1LUEp5ejY.mp3',
+      name: '明日晴れるかな（明天会放晴么）',
+      artist: '吉川慶',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0ViQXJMSzJ3TzF0UHZ2anVUXzdRbzljQkxwN1ZNVjhCbHM2R2VmQ0c3N3c2MUE_ZT1NTzlNWUg.mp3',
       cover:
-        'https://y.qq.com/music/photo_new/T002R300x300M000002H2n8G2wZZsE_1.jpg'
+        '	https://y.qq.com/music/photo_new/T002R300x300M000002TEni23aDj34_1.jpg'
     },
     {
       name: 'Nocturne in E-flat Major, Op. 9 No. 2',
@@ -332,12 +332,26 @@ const BLOG = {
         'https://y.qq.com/music/photo_new/T002R300x300M000001iDoHo213Sq9_2.jpg'
     },
     {
-      name: '流れ行く云 （流行的云）',
-      artist: '岸部真明',
-      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VVY3UyNlNRY1NSTHBCY3dRQmNRcmdNQjQtaFlMcEllVnJnMjVZcHI1YVRwQUE_ZT1TQkhheGQ.mp3',
+      name: 'Cello Suite No. 1 in G Major, BWV 1007',
+      artist: 'Bach（巴赫）',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VjQmFCaTREMEhoS21peUlxUXhWNmdvQk1QQUhiOGNDR3pjVmVPUUI1TFc0aVE_ZT00M3lzaDQ.mp3',
       cover:
-        'https://y.qq.com/music/photo_new/T002R300x300M000003lJxUU3xzad9_3.jpg'
-    }
+        'https://y.qq.com/music/photo_new/T002R300x300M000003szIc90lZR1C_4.jpg'
+    },
+    {
+      name: 'Fight',
+      artist: '押尾コータロー',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VleGJWT1VDbWI5TnBGOWtmdEdhMWRBQkFudUdtb0d4WTd2ZUMtRnhSTXJUbXc_ZT1LUEp5ejY.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000002H2n8G2wZZsE_1.jpg'
+    },
+    {
+      name: '-------------------上面是曲子，下面是歌--------------------',
+      artist: 'Careless Whisper',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VUNnI2cFJveDRsSXN5Z2RSQVRIVjk4Qkg0M2dxMkxraFZ2anktTFpQdGZuckE_ZT1PaGh2aXo.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000004FcToR0G7wLh_1.jpg'
+    } 
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
