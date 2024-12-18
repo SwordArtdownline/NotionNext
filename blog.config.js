@@ -311,6 +311,13 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
+      name: '----下面为背景轻音乐，右侧列表键可更换唱片----',
+      artist: '利特村の小曲',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VjVGROTnc4WDROTW83bzl4dTFjOEk4QlRYenRyLTU2cHBKR3p0aW51RGxjblE_ZT1MeE8wREo.mp3',
+      cover:
+        '	https://y.qq.com/music/photo_new/T002R300x300M0000039RVsh1qKJB4_1.jpg'
+    },
+    {
       name: '流れ行く云 （流行的云）',
       artist: '岸部真明',
       url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VVY3UyNlNRY1NSTHBCY3dRQmNRcmdNQjQtaFlMcEllVnJnMjVZcHI1YVRwQUE_ZT1TQkhheGQ.mp3',
@@ -346,7 +353,14 @@ const BLOG = {
         'https://y.qq.com/music/photo_new/T002R300x300M000002H2n8G2wZZsE_1.jpg'
     },
     {
-      name: '-------------上面是曲子，下面是歌--------------',
+      name: 'カッシーワのテーマ（勇者の詩）',
+      artist: '塞尔达传说配乐',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VjVV9TSzJyUFZoRWxWWWVpcDNVajNZQm40OTdESGVKYnBLR255UkM4eDB0S0E_ZT1JbkxmSDM.mp3',
+      cover:
+        '	https://y.qq.com/music/photo_new/T002R300x300M000002ZZoaQ34icr7_1.jpg'
+    },
+    {
+      name: '-------------曲子部分完结，下面是歌--------------',
       artist: 'Careless Whisper',
       url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VUNnI2cFJveDRsSXN5Z2RSQVRIVjk4Qkg0M2dxMkxraFZ2anktTFpQdGZuckE_ZT1PaGh2aXo.mp3',
       cover:
@@ -374,11 +388,11 @@ const BLOG = {
         'https://y.qq.com/music/photo_new/T002R300x300M000000EvMOS4TxNoF_1.jpg'
     },
     {
-      name: 'Bubble Gum',
-      artist: 'NewJeans (뉴진스)',
-      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VYcjFTQ2phaDloS2dTVlc5V196YjRnQmFOMjY5OUtEc1l5X3owSzliZDlUc2c_ZT1pdmwzNXM.mp3',
+      name: '手拖手',
+      artist: '方大同',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VjMDZ5M1pvYXo5UHJkZEVrRTIyUXdrQk12d05wUExSMmtTVTkyQUY2WXRFQUE_ZT1NM0FZV08.mp3',
       cover:
-        'https://y.qq.com/music/photo_new/T002R300x300M000003PvABA1IwJp1_2.jpg'
+        '	https://y.qq.com/music/photo_new/T002R300x300M000002kkyPO1moicK_4.jpg'
     },
     {
       name: 'APT.',
@@ -386,6 +400,13 @@ const BLOG = {
       url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VUb2c5TDZrS3NOSGlSLWktdHExS2lBQnd3UGVCTFBxY0FpNHlzT1JSOWpnb3c_ZT11bVlpZDk.mp3',
       cover:
         'https://y.qq.com/music/photo_new/T002R300x300M000003k3tmX1u3S55_1.jpg'
+    },
+    {
+      name: 'Bubble Gum',
+      artist: 'NewJeans (뉴진스)',
+      url: 'https://dlink.host/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvYy9hYTA0Mjg2NDQ0NDYxNDFlL0VYcjFTQ2phaDloS2dTVlc5V196YjRnQmFOMjY5OUtEc1l5X3owSzliZDlUc2c_ZT1pdmwzNXM.mp3',
+      cover:
+        'https://y.qq.com/music/photo_new/T002R300x300M000003PvABA1IwJp1_2.jpg'
     },
     {
       name: '丸ノ内サディスティック (丸内虐待狂)',
