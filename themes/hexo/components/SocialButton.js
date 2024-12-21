@@ -58,8 +58,8 @@ const SocialButton = () => {
             target='_blank'
             rel='noreferrer'
             href={CONTACT_TELEGRAM}
-            title={'Steam'}>
-            <i className='transform hover:scale-125 duration-150 fab fa-steam dark:hover:text-indigo-400 hover:text-indigo-600' />
+            title={'telegram'}>
+            <i className='transform hover:scale-125 duration-150 fab fa-telegram dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
         {CONTACT_LINKEDIN && (
@@ -67,8 +67,8 @@ const SocialButton = () => {
             target='_blank'
             rel='noreferrer'
             href={CONTACT_LINKEDIN}
-            title={'linkIn'}>
-            <i className='transform hover:scale-125 duration-150 fab fa-linkedin dark:hover:text-indigo-400 hover:text-indigo-600' />
+            title={'Steam'}>
+            <i className='transform hover:scale-125 duration-150 fab fa-steam dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
         {CONTACT_WEIBO && (
